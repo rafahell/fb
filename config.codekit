@@ -2,6 +2,50 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
+	"\/app\/assets\/images\/Oliver Dunne.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79515,
+		"inputAbbreviatedPath": "\/app\/assets\/images\/Oliver Dunne.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/images\/Oliver Dunne.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/images\/slide1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88769,
+		"inputAbbreviatedPath": "\/app\/assets\/images\/slide1.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/images\/slide1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/images\/slide2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104386,
+		"inputAbbreviatedPath": "\/app\/assets\/images\/slide2.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/images\/slide2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/images\/Stonecast - square plate - steak chips dip - portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21196e+06,
+		"inputAbbreviatedPath": "\/app\/assets\/images\/Stonecast - square plate - steak chips dip - portrait.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/images\/Stonecast - square plate - steak chips dip - portrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -84,50 +128,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/assets\/images\/Oliver Dunne.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 79515,
-		"inputAbbreviatedPath": "\/assets\/images\/Oliver Dunne.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/Oliver Dunne.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/slide1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 88769,
-		"inputAbbreviatedPath": "\/assets\/images\/slide1.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/slide1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/slide2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 104386,
-		"inputAbbreviatedPath": "\/assets\/images\/slide2.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/slide2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/Stonecast - square plate - steak chips dip - portrait.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.21196e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/Stonecast - square plate - steak chips dip - portrait.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/Stonecast - square plate - steak chips dip - portrait.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/bower.json": {
 		"fileType": 524288,

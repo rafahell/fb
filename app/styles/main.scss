@@ -1,6 +1,25 @@
 // bower:scss
 // endbower
 
+@font-face {
+font-family: 'Portrait Web';
+src: url('/font/Portrait-Regular-Web.eot');
+src: url('/font/Portrait-Regular-Web.eot?#iefix') format('embedded-opentype'),
+url('/font/Portrait-Regular-Web.woff') format('woff'),
+url('/font/Portrait-Regular-Web.ttf') format('truetype'),
+url('/font/Portrait-Regular-Web.svg#Portrait Web') format('svg');
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+}
+
+.Portrait-Regular-Web {
+font-family: 'Portrait Web';
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+}
+
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -2187,6 +2206,11 @@ body {
   color: #333;
 }
 
+p {
+  color:#FFF;
+  font-size: 14px;
+}
+
 .hero-unit {
   margin: 50px auto 0 auto;
   width: 300px;
@@ -2212,6 +2236,10 @@ body {
 
 .fat {
   font-weight: bold;
+}
+
+.nopadding {
+  padding: 0 !important;
 }
 
 .full-width-slide {
@@ -2256,7 +2284,7 @@ li {
   bottom: 0; 
   padding: 0; 
   margin: 0 auto; 
-  height: 55%;
+  height: 15%;
 }
 
 .details {
@@ -2266,7 +2294,11 @@ li {
   z-index:3; 
   width:100%; 
   bottom:0;
-  padding: 90px 0px 0px 90px;
+  padding: 90px 0px;
+}
+
+.demo1 {
+  color: #FFF !important;
 }
 
 /* Mobile Menu */
