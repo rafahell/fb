@@ -3836,6 +3836,39 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/dist\/scripts\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/scripts\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/dist\/scripts\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/scripts\/min\/vendor-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/scripts\/min\/vendor-min.js",
+		"outputAbbreviatedPath": "\/dist\/scripts\/min\/min\/vendor-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/scripts\/vendor.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/scripts\/vendor.js",
+		"outputAbbreviatedPath": "\/dist\/scripts\/min\/vendor-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/dist\/styles\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
