@@ -1,5 +1,5 @@
 /* jshint devel:true */
-console.log('\'Allo \'Allo!');
+console.log('TEST');
 
 
 /* full width slider */
