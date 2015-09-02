@@ -10,29 +10,22 @@ $(document).foundation('section').foundation('orbit', {
 	stack_on_small: false,
 	navigation_arrows: false,
 	slide_number: false,
+	timer_progress_class:false,
 	pause_on_hover: false,
 	resume_on_mouseout: false,
 	bullets: false,
 	timer: true,
-	variable_height: false,
+	variable_height: false
 });
 
 /* text rotator */
 $(document).ready(function(){
-	$(".demo1 .rotate").textrotator({
-	  animation: "fade",
-	  speed: 2500
-	});
-	$(".demo2 .rotate").textrotator({
-	  animation: "flip",
-	  speed: 1250
-	});
-	$(".demo3 .rotate").textrotator({
-	  animation: "flipCube",
-	  speed: 1500
-	});
+	$(".textIntro").fadeIn('slow').delay(3450).fadeOut('slow');
+	$(".showLogo").delay(4000).fadeIn('slow');
 
 	$("#nav-toggle").click(function(){
+		//$(".navigation").css('height','55%');
+		//$(".navigation").toggleClass("topNavigation", 300);
 		$("#menuInfo").slideToggle();
 	});
 });	
@@ -41,3 +34,6 @@ document.querySelector( "#nav-toggle" )
   .addEventListener( "click", function() {
     this.classList.toggle( "active" );
   });
+
+
+  

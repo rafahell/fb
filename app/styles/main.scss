@@ -2200,6 +2200,11 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+* {
+-webkit-font-smoothing: antaliased;
+-moz-osx-font-smoothing: grayscale;
+}
+
 body {
   background: #333;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -2208,7 +2213,7 @@ body {
 
 p {
   color:#FFF;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .hero-unit {
@@ -2242,13 +2247,24 @@ p {
   padding: 0 !important;
 }
 
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .full-width-slide {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.orbit-timer {
+  display:none;
 }
 
 .orbit-container {
@@ -2273,8 +2289,17 @@ li {
   }
 
 .rotatorContent {
-  margin-top: 250px;
-  text-align: center; 
+  /*margin-top: 250px;*/
+  text-align: center;
+  .textIntro {
+    font-size: 38px;
+    line-height: 60px;
+    color: #FFF !important; 
+  }
+}
+
+.showLogo {
+  display:none;
 }
 
 .navigation {
@@ -2285,6 +2310,12 @@ li {
   padding: 0; 
   margin: 0 auto; 
   height: 15%;
+  overflow: hidden;
+}
+
+.topNavigation {
+  height: 55%;
+  overflow: hidden;
 }
 
 .details {
@@ -2297,8 +2328,9 @@ li {
   padding: 90px 0px;
 }
 
-.demo1 {
-  color: #FFF !important;
+.address {
+  margin-left: 100px;
+  margin-top: 20px;
 }
 
 /* Mobile Menu */
@@ -2308,11 +2340,11 @@ li {
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 5px;
-  width: 35px;
+  height: 3px;
+  width: 33px;
   background: white;
   position: absolute;
-  display: block;
+  display: block; 
   content: '';
 }
 #nav-toggle span:before {
