@@ -136,8 +136,13 @@ li {
 }
 
 #page-content {
+<<<<<<< HEAD
   z-index:2;
   position:relative;
+=======
+z-index:2;
+position:relative;
+>>>>>>> 439b062f16601637003e4ba19d7b0e1b5e07df30
 }
 
 .rotatorContent {
@@ -190,6 +195,7 @@ svg {
 }
 
 .navigation {
+
   position: fixed;
   z-index: 7;
   width: 100%;
@@ -204,7 +210,6 @@ svg {
     transform: translateY(0%);
     background: black !important;
   }
-
 }
 
 .address {
@@ -299,4 +304,10 @@ p {
 .small-12 {
   text-align:center;
 }
+
+#menuInfo {
+  display:none;
+}
+
+
 }
