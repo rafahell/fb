@@ -2303,30 +2303,27 @@ li {
 }
 
 .navigation {
-  position: fixed; 
-  z-index: 7; 
-  width: 100%; 
-  bottom: 0; 
-  padding: 0; 
-  margin: 0 auto; 
-  height: 15%;
+  position: fixed;
+  z-index: 7;
+  width: 100%;
+  bottom: -220px;
+  padding: 0;
+  margin: 0 auto;
   overflow: hidden;
 }
 
-.topNavigation {
-  height: 55%;
-  overflow: hidden;
-}
-
-.details {
+/*.details {
   background-color:#000; 
   height:300px; 
-  position: fixed; 
+  position: relative; 
   z-index:3; 
   width:100%; 
   bottom:0;
   padding: 90px 0px;
-}
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}*/
 
 .address {
   margin-left: 100px;
@@ -2334,7 +2331,12 @@ li {
 }
 
 /* Mobile Menu */
-#nav-toggle { position: absolute; left: 50%; top: 50%; }
+#nav-toggle {     
+  padding: 30px 35px 0px 0px;
+  z-index: 9; 
+  left: 50%;
+  position: relative;
+}
 
 #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
@@ -2371,5 +2373,12 @@ li {
 }
 
 #menuInfo {
-  display:none;
+  padding: 60px 0px;
+}
+
+.open {
+  padding: 10px 0px;      
+  background: #000 !important;
+  bottom: 0px !important;
+  transition: all 0.25ms ease;
 }
