@@ -24,8 +24,8 @@ $(document).ready(function(){
 	$(".showLogo").delay(4000).fadeIn('slow');
 
 	$("#nav-toggle").click(function(){
-		//$(".navigation").css('height','55%');
-		//$(".navigation").toggleClass("topNavigation", 300);
+		$(".navigation").css('height','65%');
+		$(".navigation").toggleClass("topNavigation", 300);
 		$("#menuInfo").slideToggle();
 	});
 });	
