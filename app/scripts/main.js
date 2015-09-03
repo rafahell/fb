@@ -23,24 +23,12 @@ $(document).ready(function(){
 	$(".textIntro").fadeIn('slow').delay(3450).fadeOut('slow');
 	$(".showLogo").delay(4000).fadeIn('slow');
 
-	/*$("#nav-toggle").click(function(){
-		//$(".navigation").css('height','55%');
-		//$(".navigation").toggleClass("topNavigation", 300);
-		$("#menuInfo").slideToggle();
-	});*/
-
 	$('#nav-toggle').click(function() {
-	$('.navigation').toggleClass('open');
-
-
-	});
+        $(this).toggleClass('active');
+        $('.navigation').toggleClass('open');
+    });
 
 });	
-
-document.querySelector( "#nav-toggle" )
-  .addEventListener( "click", function() {
-    this.classList.toggle( "active" );
-  });
 
 
   
