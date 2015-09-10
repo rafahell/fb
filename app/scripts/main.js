@@ -1,5 +1,5 @@
 /* jshint devel:true */
-console.log('TEST');
+//console.log('TEST');
 
 
 /* full width slider */
@@ -27,8 +27,9 @@ $(document).ready(function(){
         $(this).toggleClass('active');
         $('.navigation').toggleClass('open');
     });
-
 });	
 
-
-  
+$(document).foundation();
+$('a.custom-close').click(function(){
+  $('#food-menu').foundation('reveal', 'close');
+});

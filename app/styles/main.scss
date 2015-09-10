@@ -223,6 +223,29 @@ svg {
 //   transition: all ease 0.5s;
 // }
 
+hr {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  margin: 2rem 0 2rem;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+.custom-close {
+  background-color: #000;
+  margin-top: 20px;
+}
+
 @media (max-width: 1024px) { 
   .centered { 
     top: 40%;
@@ -241,10 +264,6 @@ svg {
   transition: all ease 0.4s;
 }
 
-// .open {
-//   bottom: 90px !important;
-// }
-
 .centered { 
   top: 40%;
 }
@@ -260,49 +279,49 @@ svg {
 }
 }
 
-
 @media only screen and (max-device-width: 480px) {
+  p {
+    margin-bottom: 0.25rem;
+    line-height: 23px;
+  }
 
-p {
-  margin-bottom: 0.25rem;
-  line-height: 23px;
-}
+  .address {
+    // padding-top: 0.25rem;
+  }
 
-.address {
-  // padding-top: 0.25rem;
-}
+  .rotatorContent .textIntro {
+    font-size: 18px;
+    line-height: 30px;  
+  }
 
-.rotatorContent .textIntro {
-  font-size: 18px;
-  line-height: 30px;  
-}
+  .nofloat {
+    float: none !important;
+  }
 
-.nofloat {
-  float: none !important;
-}
+  .navigation {
+    top: 85%; 
+    bottom:0;
+  }
 
-.navigation {
-  top: 85%; 
-  bottom:0;
-}
+  .open {
+    top: 0 !important;
+    bottom:0 !important;
+  }
 
-.open {
-  top: 0 !important;
-  bottom:0 !important;
-}
+  .address {
+    margin-left: 0;
+    margin-top: 0px;
+  }
 
-.address {
-  margin-left: 0;
-  margin-top: 0px;
-}
+  .small-12 {
+    text-align:center;
+  }
+  .reveal-modal {
+      overflow-y: auto;
+  }
 
-.small-12 {
-  text-align:center;
-}
-
-#menuInfo {
-  display:none;
-}
-
+  .marginBottom {
+    margin-bottom: 25px;
+  }
 
 }
