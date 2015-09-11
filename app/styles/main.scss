@@ -44,6 +44,7 @@ p > a {
 
 p > a:hover {
   color: #792b31;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 p > a:before {
@@ -57,8 +58,8 @@ p > a:before {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 p > a:hover:before {
@@ -66,7 +67,6 @@ p > a:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-
 
 .hero-unit {
   margin: 50px auto 0 auto;
@@ -146,6 +146,13 @@ position:relative;
     font-size: 38px;
     line-height: 60px;
     color: #FFF !important; 
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
   }
 }
 
@@ -183,6 +190,11 @@ position:relative;
 
 .showLogo {
   display:none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 svg {

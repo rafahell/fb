@@ -1,8 +1,6 @@
 /* jshint devel:true */
 //console.log('TEST');
 
-
-/* full width slider */
 $(document).foundation('section').foundation('orbit', {
 	animation: 'fade',
 	timer_speed: 3000,
@@ -18,18 +16,30 @@ $(document).foundation('section').foundation('orbit', {
 	variable_height: false
 });
 
-/* text rotator */
 $(document).ready(function(){
-	$(".textIntro").fadeIn('slow').delay(3450).fadeOut('slow');
-	$(".showLogo").delay(4000).fadeIn('slow');
+
+	$(".textIntro").click(function(){
+    $(this).fadeOut('slow');
+	$(".showLogo").fadeIn('slow');
+	});
+
+	$(".showLogo").click(function(){
+    $(this).fadeOut('slow');
+	$(".textIntro").fadeIn('slow');
+	});
+
+	$(".textIntro").fadeIn('slow').delay(6450).fadeOut('slow');
+	$(".showLogo").delay(7000).fadeIn('slow');
 
 	$('#nav-toggle').click(function() {
         $(this).toggleClass('active');
         $('.navigation').toggleClass('open');
+
     });
 });	
 
-$(document).foundation();
-$('a.custom-close').click(function(){
-  $('#food-menu').foundation('reveal', 'close');
-});
+/*custom buttom - modal*/
+//$(document).foundation();
+//$('a.custom-close').click(function(){
+//  $('#food-menu').foundation('reveal', 'close');
+//});
