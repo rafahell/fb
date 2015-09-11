@@ -202,7 +202,6 @@ svg {
 }
 
 .navigation {
-
   position: fixed;
   z-index: 7;
   width: 100%;
@@ -219,9 +218,13 @@ svg {
   }
 }
 
+.opening-time {
+    width: 235px;
+    text-align: center;
+}
+
 .address {
   margin-left: 100px;
-  margin-top: 20px;
 }
 
 #menuInfo {
@@ -293,8 +296,12 @@ hr:after {
 
 @media only screen and (max-device-width: 480px) {
   p {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.45rem;
     line-height: 23px;
+  }
+
+  .opening-time {
+    width: 100%;
   }
 
   .address {
